@@ -20,7 +20,7 @@ export default function Home() {
 
                 {/* CTA ボタン */}
                 <a
-                    href="/docs"
+                    href="/docs/document"
                     className="mt-8 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-indigo-500 focus:outline-none focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-700"
                 >
                     ドキュメントを読む
