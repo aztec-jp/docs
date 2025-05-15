@@ -13,18 +13,15 @@ export default function Home() {
 
                 {/* サブコピー */}
                 <p className="mt-4 max-w-prose text-center text-lg text-slate-600 dark:text-slate-300">
-                    Aztec&nbsp;Protocol 🌏 の非公式日本語ドキュメントへようこそ。
-                    <br />
-                    セットアップから内部仕様まで、すべて日本語でまとめています。
+                    Aztec🌏 の非公式日本語ドキュメントへようこそ。
                 </p>
 
                 {/* CTA ボタン */}
-                <a
-                    href="/docs/document"
-                    className="mt-8 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-indigo-500 focus:outline-none focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-700"
-                >
-                    ドキュメントを読む
-                </a>
+                <img
+                    src="img/image.png"
+                    alt="Aztec Logo"
+                    className="mt-8 h-100 border-4 border-slate-200 bg-white p-2 shadow-lg dark:border-slate-700 dark:bg-slate-800"
+                />
             </main>
         </Layout>
     );
