@@ -55,12 +55,23 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/aztec-jp/docs',
+          type: "docSidebar",
+          sidebarId: "nodeSidebar",
+          position: "left",
+          label: "Node",
+        },
+        {
+          to: 'https://github.com/aztec-jp/docs',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://discord.gg/aztec',
+          to: 'https://docs.aztec.network/',
+          label: '公式ドキュメント',
+          position: 'right',
+        },
+        {
+          to: 'https://discord.gg/aztec',
           label: 'Discord',
           position: 'right',
         },
